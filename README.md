@@ -14,7 +14,9 @@ The input format:
 <User><TAB><Friends>
 
 Output: 
+```
 <User_A>, <User_B><TAB><Common Friend Number> 
+ ```
 
 ## 2. top-10 friend pairs by their total number of common friends
 
@@ -31,8 +33,10 @@ column9 :username
 column10 : date of birth.
 
 output format:
+```
 <Total number of Common Friends><TAB><First Name of User A><TAB><Last Name of User A> <TAB><address of User A><TAB><First Name of User B><TAB><Last Name of User B><TAB>
 <address of User B>
+```
 
 ## 3.Yelp dataset userID and rating
 
@@ -56,12 +60,17 @@ user_id': (unique user identifier),
 'url': url of the user on yelp
 
 output format:
+```
 <User id><Rating>
+```
 
 
 ## 4:List the  business_id , full address and categories of the Top 10 businesses according to the average ratings.  
 
 output format:
+
+```
 <business id><Tab><address><Tab><categories><Tab><avg rating>
+```
 
 
