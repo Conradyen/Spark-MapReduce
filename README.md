@@ -1,7 +1,13 @@
 # Spark-MapReduce
 
 
-## 1. 
+## 1. Find common friend list of every pair of user
+
+implement in:
+
+```
+commonFriend()
+```
 Find total number of common friends for any possible friend pairs.
 
 For example,
@@ -19,6 +25,12 @@ Output:
  ```
 
 ## 2. top-10 friend pairs by their total number of common friends
+
+implement in:
+
+```
+topTenCommonFriend()
+```
 
 user data input format:
 column1 : userid
@@ -38,7 +50,13 @@ output format:
 <address of User B>
 ```
 
-## 3.Yelp dataset userID and rating
+## 3.Yelp dataset userID and rating in Standford area 
+
+implement in:
+
+```
+reviewInStandford()
+```
 
 Data set info:
 The data set comprises of three csv files, namely user.csv, business.csv and review.csv.  
@@ -60,12 +78,19 @@ user_id': (unique user identifier),
 'url': url of the user on yelp
 
 output format:
+
 ```
 <User id><Rating>
 ```
 
 
-## 4:List the  business_id , full address and categories of the Top 10 businesses according to the average ratings.  
+## 4.List the  business_id , full address and categories of the Top 10 businesses according to the average ratings.  
+
+implement in:
+
+```
+avgRrating()
+```
 
 output format:
 
